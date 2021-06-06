@@ -1,6 +1,6 @@
 # MorrAssignment
 
-##To view this project:
+To view this project:
 1- Clone the repository
 2- In console type:
     (i)'cd dist'
