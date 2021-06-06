@@ -1,93 +1,72 @@
-.footer{
+.footer {
+    padding: 35px 60px;
     background-color: black;
     color: grey;
-    width: 100%;
-    min-width: 840px;
-    margin-top: 150px;
+    margin-top: 80px;
 }
-.sectionA{
-    display: flex;
-    align-items: center;
-    padding: 30px 90px;
-    padding-bottom: 10px;
-    font-size: 13px;
-    font-weight: bolder;
-}
-li{
-    list-style: none;
-    display: inline;
-}
-a{
-    color: rgb(238, 238, 238);
-}
-p{
-    padding: 0px 105px;
-    font-size: 13px;
-    font-weight: bolder;
-    color: rgb(238, 238, 238);
-}
-.sectionB{
-    display: flex;
-    align-items: center;
-}
-.icons{
-    padding: 20px 100px;
-}
-i{
-    color: white;
-    margin: 5px;
-    font-size: 30px !important;
-    margin-right: 30px;
-}
-.right{
-    float: right;
-    margin-left: auto;
-    margin-right: 90px;
-}
-img{
-    display: inline;
-}
-.apple{
-    max-width:150px;
-    max-height:250px;
-    width: auto;
-    height: auto;
-}
-.play{
-    max-width:140px;
-    max-height:210px;
-    margin-right: 10px;
-    width: auto;
-    margin-bottom: 7px;
-    height: auto;
-}
-.micro{
-    max-width:115px;
-    max-height:170px;
-    margin-bottom: 7px;
-    width: auto;
-    height: auto;
-}
-@media(max-width:968px){
-    img{
-        display: flex;
-        flex-direction: row;
-    }
-    .footer{
-        height: 300px;
 
+p {
+    padding-bottom: 8px;
+}
+
+.section2 {
+    margin-top: 25px;
+}
+
+.section2 .left {
+    float: left;
+    width: 50%;
+}
+
+.left i {
+    font-size: 30px;
+    padding-right: 20px;
+    color: white;
+}
+
+.section2 .right {
+    float: right;
+    width: 50%;
+}
+
+.right img {
+    width: 22%;
+    margin: 0px 10px;
+}
+
+.section2::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.right img.google {
+    width: 25%;
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 912px) {
+    .left i {
+        font-size: 25px;
     }
-    ul{
+    .right img {
+        width: 25%;
+    }
+    .right img.google {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .section2 .left {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        width: 100%;
     }
-    .play{
-        max-width: 115px;
-    }
-    .apple{
-        max-width: 125px;
-    }
-    p{
-        padding-right: 0px;
+    .section2 .right {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
     }
 }

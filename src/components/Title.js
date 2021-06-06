@@ -1,9 +1,9 @@
-import "../cssfiles/Title.css";
+import "../cssfiles/Title.css"
 
 export default function Title(props){
-    return( 
-    <div className="titlebox">
-        {props.title}
-    </div>
+    return(
+        <div className="title">
+            {props.title}
+        </div>
     );
 }

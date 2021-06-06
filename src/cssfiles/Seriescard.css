@@ -1,8 +1,5 @@
 .seriescard {
     padding: 20px;
-    display: flex;
-    justify-items: center;
-    flex-direction: row;
 }
 
 .seriescard p {
