@@ -1,12 +1,14 @@
 # MorrAssignment
 
-To view this project:<br />
+## To view this project:
 1- Clone the repository<br />
 2- In console type:<br/>
-    (i)'cd dist'<br/>
-    (ii)'npm install'<br/>
-3- At last type npm start<br/>
-The respective project will start on the http://localhost:3000/ of your system.<br/>
+    (i)`cd dist`<br/>
+    (ii)`npm install`<br/>
+3- At last `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <br/>
 <br/>
 ## How did you decide on the technical and architectural choices used as part of your solution?
