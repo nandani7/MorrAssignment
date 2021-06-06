@@ -1,11 +1,12 @@
 .titlebox{
     background-color: rgb(59, 58, 58);
     padding: 0px 40px;
-    height: 50px;
+    height: 30px;
     min-width: 840px;
-    line-height: 50px;
+    line-height: 30px;
     color: rgb(230, 227, 227);
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 10px, rgba(0, 0, 0, 0.23) 0px 3px 3px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bolder;
+    
 }

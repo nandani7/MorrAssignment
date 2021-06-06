@@ -1,17 +1,16 @@
 .footer{
     background-color: black;
     color: grey;
-    height: 250px;
     width: 100%;
-    box-sizing: border-box;
     min-width: 840px;
+    margin-top: 150px;
 }
 .sectionA{
     display: flex;
     align-items: center;
-    padding: 40px 90px;
+    padding: 30px 90px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bolder;
 }
 li{
@@ -23,7 +22,7 @@ a{
 }
 p{
     padding: 0px 105px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bolder;
     color: rgb(238, 238, 238);
 }
@@ -32,7 +31,7 @@ p{
     align-items: center;
 }
 .icons{
-    padding: 50px 100px;
+    padding: 20px 100px;
 }
 i{
     color: white;
