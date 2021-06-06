@@ -1,5 +1,14 @@
 # MorrAssignment
 
+##To view this project:
+1- Clone the repository
+2- In console type:
+    (i)'cd dist'
+    (ii)'npm install'
+3- At last type npm start
+The respective project will start on the http://localhost:3000/ of your system.
+
+
 For technical part, I have choosen React.
 React is fast, scalable and simple. Hence, it was my ultimate choice. 
 It helped me to create my web application that can change data, without reloading the page.
