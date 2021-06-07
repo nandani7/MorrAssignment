@@ -22,6 +22,7 @@ I have used react-router and react dom in the project.<br/>
 <br/>
 ## Are there any improvements you could make to your submission?
 I have made the website responsive and dynamic. The website fetches the data from JSON file and show it in the pages.<br/>
+I have also made a custom favicon for the project.
 <br/>
 ## What would you do differently if you were allocated more time?
 If I have had more time, I would have included the login page. Also, I would have add respective pages of each movie and series that would give their information.<br/>
