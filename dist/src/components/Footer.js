@@ -4,7 +4,7 @@ export default function Footer(){
     return(
         <div className="footer">
             <div className="section1">
-                <p>Home | Terms and Conditions | Privacy Policy | Collection Statements | Help | Manage Account </p>
+                <p><a href="#">Home</a> | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a> | <a href="#">Collection Statements</a> | <a href="#">Help</a> | <a href="#">Manage Account</a> </p>
                 <p>Copyright &#169; 2016 DEMO STREAMING  All Rights Reserved</p>
             </div>
             <div className="section2">
